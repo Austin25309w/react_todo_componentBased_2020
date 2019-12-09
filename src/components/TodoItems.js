@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class TodoItems extends Component {
     createTasks(item) {
-    return <li key = {item.key}>{item.text}</li>
+    return <li style={{display: "flex", justifyContent:"center"}} key = {item.key}>{item.text}</li>
     }
 
     render(){
